@@ -9,8 +9,8 @@ SoftwareSerial Serial1(6, 7); // RX, TX
 #endif
 String section="header";
 
-char ssid[] = "andrew khew";            // your network SSID (name)
-char pass[] = "88213819";         // your network password
+char ssid[] = "";            // your network SSID (name)
+char pass[] = "";         // your network password
 int status = WL_IDLE_STATUS;// the Wifi radio's status
 
 char server[] = "smkbatu8.000webhostapp.com";
@@ -145,5 +145,4 @@ void loop(){
       }
     }
   }
-  //setup();
 }
